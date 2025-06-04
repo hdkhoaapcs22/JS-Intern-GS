@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
 const SideBar = () => {
-
   const navigate = useNavigate();
 
   const menuItems = [
@@ -12,9 +11,8 @@ const SideBar = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col">
-      <div className="flex px-9 mt-6 mb-8">
-      </div>
+    <div className="w-full h-screen flex flex-col">
+      <div className="flex px-9 mt-6 mb-8"></div>
       <div className="px-6">
         <h2 className="text-2xl font-bold px-3 mb-4">Main Menu</h2>
         <ul>

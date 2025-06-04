@@ -14,8 +14,8 @@ const App = () => {
       <ToastContainer />
       <Header />
 
-      <div className="flex ">
-        <div className="w-[15%] h-screen flex-none text-black flex flex-col bg-gradient-to-b from-yellow-400 via-green-500 to-teal-700">
+      <div className="flex min-h-screen ">
+        <div className="w-[15%] flex-none text-black flex flex-col bg-gradient-to-b from-yellow-400 via-green-500 to-teal-700">
           <SideBar />
         </div>
         <div className="flex-1 overflow-y-auto scrollbar-hide">

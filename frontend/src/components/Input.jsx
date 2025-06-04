@@ -1,10 +1,4 @@
-const Input = ({
-  label,
-  placeholder,
-  value,
-  onChangeValue,
-  required = false,
-}) => {
+const Input = ({ placeholder, value, onChangeValue, required = false }) => {
   return (
     <input
       type="text"
