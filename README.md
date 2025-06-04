@@ -19,3 +19,4 @@ Finally, you can run the frontend with the following command:
 cd frontend
 npm run dev
 ```
+Demo link: [https://youtu.be/AjUjtDFlQwk](https://youtu.be/AjUjtDFlQwk)
