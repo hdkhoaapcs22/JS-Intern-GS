@@ -6,7 +6,7 @@ const ScoreTable = ({ score }) => {
   return (
     <div className="p-4">
       <h2 className="text-xl font-bold mb-2">Student Score Table</h2>
-      <table className="table-auto border-collapse border border-gray-400">
+      <table className="table-auto border-collapse border border-gray-400 w-[30%]">
         <thead>
           <tr className="bg-gray-200">
             <th className="border border-gray-400 px-2 py-1">Subject</th>
@@ -14,16 +14,19 @@ const ScoreTable = ({ score }) => {
           </tr>
         </thead>
         <tbody>
-          {entries.map(([subject, value]) => (
-            <tr key={subject}>
-              <td className="border border-gray-400 px-2 py-1">
-                {subjectLabels[subject] || subject}
-              </td>
-              <td className="border border-gray-400 px-2 py-1">
-                {value !== null && value !== undefined ? value : "N/A"}
-              </td>
-            </tr>
-          ))}
+          {entries.map(([subject, value]) => {
+            if (subject === "sbd") return null;
+            return (
+              <tr key={subject}>
+                <td className="border border-gray-400 px-2 py-1">
+                  {subjectLabels[subject] || subject}
+                </td>
+                <td className="border border-gray-400 px-2 py-1">
+                  {value !== null && value !== undefined ? value : "N/A"}
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>
