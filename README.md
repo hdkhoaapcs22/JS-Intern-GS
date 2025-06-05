@@ -1,6 +1,11 @@
 # JS-Intern-GS
 
-Firstly, we need to build the docker compose to start the container for setting up the Redis server with the following command:
+<<<<<<< HEAD
+
+=======
+
+> > > > > > > dd3a2957c0adaa9ea834f1d626934f892e34499b
+> > > > > > > Firstly, we need to build the docker compose to start the container for setting up the Redis server with the following command:
 
 ```bash
 cd docker
@@ -20,3 +25,5 @@ Finally, you can run the frontend with the following command:
 cd frontend
 npm run dev
 ```
+
+Demo link: [https://youtu.be/AjUjtDFlQwk](https://youtu.be/AjUjtDFlQwk)
