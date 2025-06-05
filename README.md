@@ -1,11 +1,8 @@
 # JS-Intern-GS
 
-<<<<<<< HEAD
-
 =======
 
-> > > > > > > dd3a2957c0adaa9ea834f1d626934f892e34499b
-> > > > > > > Firstly, we need to build the docker compose to start the container for setting up the Redis server with the following command:
+Firstly, we need to build the docker compose to start the container for setting up the Redis server with the following command:
 
 ```bash
 cd docker
